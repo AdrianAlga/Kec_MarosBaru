@@ -1,0 +1,90 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+  font-family: "Poppins", sans-serif;
+  color: var(--warna1) !important;
+}
+
+body {
+  background-color: var(--warna3);
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --warna1: #434750;
+  --warna2: #b7aea5;
+  --warna3: #f0eee2;
+}
+
+/* header */
+#header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: var(--warna2);
+}
+
+#header img {
+  height: 70px;
+  width: 70px;
+}
+
+#header .judul {
+  padding-left: 10px;
+}
+
+#header .col-12 {
+  display: flex;
+}
+
+#header h3 {
+  color: white;
+}
+
+#header p {
+  color: white;
+}
+/* Carousel */
+#carousel .carousel-inner {
+  height: 470px;
+}
+
+/* footer */
+footer {
+  background: linear-gradient(to bottom, #424347, #45464dd2) !important;
+}
+
+footer p:nth-child(2) {
+  color: rgb(211, 211, 211) !important;
+  font-size: 0.9rem;
+}
+
+footer .social-media a {
+  color: #e1e1e4 !important;
+  font-size: 25px;
+}
+
+footer .foot-nav a {
+  color: #b4b4c8 !important;
+}
+footer .foot-nav a:hover {
+  color: #ffffff !important;
+}
+
+footer .createdBy {
+  font-size: 0.8rem;
+  color: #b4b4c8 !important;
+}
+footer .createdBy a {
+  color: #f8f9ff !important;
+}
+
+footer .social-media i {
+  color: white !important;
+}

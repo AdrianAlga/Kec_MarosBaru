@@ -1,0 +1,12 @@
+#navbar nav .active a {
+  color: #412eee;
+  font-weight: 600;
+}
+
+/* #main {
+  height: 200vh;
+} */
+
+#main p {
+  text-align: justify;
+}

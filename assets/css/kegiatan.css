@@ -1,0 +1,30 @@
+#main .card {
+  width: 50%;
+}
+
+#main .card strong {
+  font-size: 15px;
+}
+
+#main .card p {
+  font-size: 13px;
+}
+
+#main .card .deskripsi {
+  height: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#main img {
+  height: 180px;
+  /* background-image: url("../images/kegiatan/musrembang1.jpeg"); */
+  background-color: #8585857f;
+  background-size: cover;
+  background-position: center;
+}
+
+#navbar nav .active a {
+  color: #412eee;
+  font-weight: 600;
+}
