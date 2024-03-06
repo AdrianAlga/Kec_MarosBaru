@@ -23,6 +23,10 @@ a {
   --warna3: #f0eee2;
 }
 
+#navbar ul li:nth-child(3) {
+  display: none;
+}
+
 /* header */
 #header {
   padding-top: 20px;
