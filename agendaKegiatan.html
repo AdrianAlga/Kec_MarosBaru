@@ -64,7 +64,7 @@
         <div class="row">
           <div class="col-md-4 col-12 d-flex justify-content-center mb-4">
             <div class="card" style="width: 18rem">
-              <img src="assets/images/kegiatan/musrembang1.jpeg" class="card-img-top" alt="img" />
+              <img src="assets/images/kegiatan/" id="gambar" class="card-img-top" alt="img" />
               <div class="card-body">
                 <h5 class="card-title">Musrembang</h5>
                 <p class="deskripsi">
@@ -82,7 +82,7 @@
           </div>
           <div class="col-md-4 d-flex justify-content-center mb-4">
             <div class="card" style="width: 18rem">
-              <img src="assets/images/kegiatan/pengajian2.jpeg" class="card-img-top" alt="img" />
+              <img src="assets/images/kegiatan/" class="card-img-top" alt="img" />
               <div class="card-body">
                 <h5 class="card-title">Pengajian Rutin</h5>
                 <p class="deskripsi">
@@ -99,7 +99,7 @@
           </div>
           <div class="col-md-4 d-flex justify-content-center mb-4">
             <div class="card" style="width: 18rem">
-              <img src="assets/images/kegiatan/jum'at_curhat.jpeg" class="card-img-top" alt="img" />
+              <img src="assets/images/kegiatan/" class="card-img-top" alt="img" />
               <div class="card-body">
                 <h5 class="card-title">Jum'at Curhat</h5>
                 <p class="deskripsi">
@@ -116,7 +116,7 @@
           </div>
           <div class="col-md-4 d-flex justify-content-center mb-4">
             <div class="card" style="width: 18rem">
-              <img src="assets/images/kegiatan/apel1.jpeg" class="card-img-top" alt="img" />
+              <img src="assets/images/kegiatan/" class="card-img-top" alt="img" />
               <div class="card-body">
                 <h5 class="card-title">Apel Senin Pagi</h5>
                 <p class="deskripsi">
@@ -133,7 +133,7 @@
           </div>
           <div class="col-md-4 d-flex justify-content-center mb-4">
             <div class="card" style="width: 18rem">
-              <img src="assets/images/kegiatan/kerjaBakti1.jpeg" class="card-img-top" alt="img" />
+              <img src="assets/images/kegiatan/" class="card-img-top" alt="img" />
               <div class="card-body">
                 <h5 class="card-title">Jum'at Sehat (Senam - Kerja Bakti)</h5>
                 <p class="deskripsi">
@@ -151,7 +151,7 @@
           </div>
           <div class="col-md-4 d-flex justify-content-center mb-4">
             <div class="card" style="width: 18rem">
-              <img src="assets/images/kegiatan/kesadaran1.jpeg" class="card-img-top" alt="img" />
+              <img src="assets/images/kegiatan/" class="card-img-top" alt="img" />
               <div class="card-body">
                 <h5 class="card-title">Hari Kesadaran Nasional</h5>
                 <p class="deskripsi">
@@ -168,7 +168,7 @@
           </div>
           <div class="col-md-4 d-flex justify-content-center mb-4">
             <div class="card" style="width: 18rem">
-              <img src="assets/images/kegiatan/maros1.jpeg" class="card-img-top" alt="img" />
+              <img src="assets/images/kegiatan/" class="card-img-top" alt="img" />
               <div class="card-body">
                 <h5 class="card-title">Perayaan Hari Jadi Kabupaten Maros</h5>
                 <p class="deskripsi">
@@ -186,7 +186,7 @@
           </div>
           <div class="col-md-4 d-flex justify-content-center mb-4">
             <div class="card" style="width: 18rem">
-              <img src="assets/images/kegiatan/17agustus1.jpeg" class="card-img-top" alt="img" />
+              <img src="assets/images/kegiatan/" class="card-img-top" alt="img" />
               <div class="card-body">
                 <h5 class="card-title">Kegiatan 17 Agustus</h5>
                 <p class="deskripsi">
@@ -203,7 +203,7 @@
           </div>
           <div class="col-md-4 d-flex justify-content-center mb-4">
             <div class="card" style="width: 18rem">
-              <img src="assets/images/kegiatan/adat1.jpeg" class="card-img-top" alt="img" />
+              <img src="assets/images/kegiatan/" class="card-img-top" alt="img" />
               <div class="card-body">
                 <h5 class="card-title">Kegiatan Tahunan Appalili & Tokko Bokko</h5>
                 <p class="deskripsi">
@@ -220,7 +220,7 @@
           </div>
           <div class="col-md-4 d-flex justify-content-center mb-4">
             <div class="card" style="width: 18rem">
-              <img src="assets/images/kegiatan/sosialisasi1.jpeg" class="card-img-top" alt="img" />
+              <img src="assets/images/kegiatan/" class="card-img-top" alt="img" />
               <div class="card-body">
                 <h5 class="card-title">Tudang Sipulung</h5>
                 <p class="deskripsi">
@@ -275,6 +275,15 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      window.onload = function () {
+        var e = document.getElementById("gambar");
+        e.onerror = function () {
+          (e.src = "gambar-default.jpg"), (e.alt = "Gambar");
+        };
+      };
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
